@@ -1,0 +1,25 @@
+{
+    "users": [
+        {
+            "username": "User",
+            "password": "123",
+            "history": [
+                "Write A Feature Length Screenplay For Film Or Television",
+                "Python Basics",
+                "Business Strategy Business Model Canvas Analysis with Miro",
+                "Encryption And Decryption Using C++",
+                "Doing Business in China Capstone"
+            ]
+        },
+        {
+            "username": "User1",
+            "password": "123",
+            "history": [
+                "Write A Feature Length Screenplay For Film Or Television",
+                "JavaScript jQuery and JSON",
+                "Java Arrays and Loops",
+                "Python Basics"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+streamlit
+pandas
+pickle
+json
+os
+sklearn.metrics.pairwise
+cosine_similarity
