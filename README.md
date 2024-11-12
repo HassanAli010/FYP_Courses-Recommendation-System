@@ -27,20 +27,21 @@ Logout: Ends the admin session and redirects to the login page.
 
 **Project Structure**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-├── data
-│   ├── courses.csv              # Coursera dataset for 3000 courses
-│   ├── users.json               # JSON file to store user account data
-│   ├── admin.json               # JSON file to store admin account data
-├── model
-│   ├── similarity.pkl           # Precomputed similarity matrix for content-based filtering
-│   ├── courses.pkl              # Processed courses data for recommendations
-├── src
-│   ├── app.py                   # Streamlit app with UI and recommendation logic
-│   ├── utils.py                 # Utility functions for data processing
-│   ├── collaborative_filtering.py # Collaborative filtering functions
-│   ├── content_based_filtering.py # Content-based filtering functions
-├── README.md                    # Project documentation
-└── requirements.txt             # Python dependencies
+Folder / File	Description
+data/	Contains data files for the recommendation system
+├── courses.csv	Coursera dataset with 3000 courses
+├── users.json	JSON file storing user account data
+├── admin.json	JSON file storing admin account data
+model/	Stores preprocessed and serialized model files
+├── similarity.pkl	Precomputed similarity matrix for content-based filtering
+├── courses.pkl	Processed course data for recommendations
+src/	Source code directory
+├── app.py	Streamlit app managing the UI and recommendation logic
+├── utils.py	Utility functions for data processing
+├── collaborative_filtering.py	Functions implementing collaborative filtering
+├── content_based_filtering.py	Functions implementing content-based filtering
+README.md	Project documentation file
+requirements.txt	List of Python dependencies
 
 **Installation**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
