@@ -27,21 +27,20 @@ Logout: Ends the admin session and redirects to the login page.
 
 **Project Structure**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Folder / File	Description
-data/	Contains data files for the recommendation system
-├── courses.csv	Coursera dataset with 3000 courses
-├── users.json	JSON file storing user account data
-├── admin.json	JSON file storing admin account data
-model/	Stores preprocessed and serialized model files
-├── similarity.pkl	Precomputed similarity matrix for content-based filtering
-├── courses.pkl	Processed course data for recommendations
-src/	Source code directory
-├── app.py	Streamlit app managing the UI and recommendation logic
-├── utils.py	Utility functions for data processing
-├── collaborative_filtering.py	Functions implementing collaborative filtering
-├── content_based_filtering.py	Functions implementing content-based filtering
-README.md	Project documentation file
-requirements.txt	List of Python dependencies
+├── data
+│   ├── courses.csv              
+│   ├── users.json               
+│   ├── admin.json               
+├── model
+│   ├── similarity.pkl           
+│   ├── courses.pkl              
+├── src
+│   ├── app.py                   
+│   ├── utils.py                 
+│   ├── collaborative_filtering.py 
+│   ├── content_based_filtering.py
+├── README.md                    
+└── requirements.txt             
 
 **Installation**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
