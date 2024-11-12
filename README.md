@@ -7,10 +7,12 @@ This repository contains the code for a Courses Recommendation System developed 
 The Courses Recommendation System is designed to help users find courses that match their interests and preferences. Users receive recommendations based on the similarity of course content and other users' preferences. The system includes distinct sessions for users and admins and provides personalized course suggestions.
 
 Recommendation Techniques
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Content-Based Filtering: Recommends courses based on similar course attributes.
 Collaborative Filtering: Recommends courses based on user preferences and similarities between users’ course histories.
 
 **Features**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 User Features
 User Signup/Login: Users can create an account and log in securely.
 Home Page: Displays the user's course history.
@@ -24,6 +26,7 @@ User Management: Admins can delete user accounts and course histories.
 Logout: Ends the admin session and redirects to the login page.
 
 **Project Structure**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ├── data
 │   ├── courses.csv              # Coursera dataset for 3000 courses
 │   ├── users.json               # JSON file to store user account data
@@ -40,29 +43,21 @@ Logout: Ends the admin session and redirects to the login page.
 └── requirements.txt             # Python dependencies
 
 **Installation**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Clone the Repository
-
-bash
-Copy code
 git clone https://github.com/yourusername/courses-recommendation-system.git
 cd courses-recommendation-system
 Install Dependencies
-
-bash
-Copy code
 pip install -r requirements.txt
 Prepare Dataset
-
 Ensure courses.csv is in the data directory.
 Run preprocessing scripts to generate similarity.pkl and courses.pkl.
 Start the Streamlit App
-
-bash
-Copy code
 streamlit run src/app.py
 
 
 **Usage**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Run the Application: After installation, navigate to the Streamlit app in your browser.
 User Signup/Login: Create a user account or log in.
 Admin Features: Access user history and manage accounts.
@@ -71,6 +66,7 @@ Go to the Content-Based Recommendation page to get course suggestions based on a
 Go to the Collaborative Filtering page to view recommendations based on similar users' preferences.
 
 **Screenshots**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 User Home Page
 Content-Based Filtering Page
 Collaborative Filtering Page
@@ -78,6 +74,7 @@ Admin User Management Page
 (Add screenshots here for a visual representation of the interface.)
 
 **Technologies Used**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Python: Core programming language for logic and data processing.
 Streamlit: For building the web interface.
 Pandas & NumPy: Data handling and matrix operations.
@@ -85,8 +82,5 @@ Scikit-Learn: Cosine similarity calculations.
 JSON: User and admin data storage.
 Pickle: For saving and loading model files (similarity.pkl and courses.pkl).
 
-
-Acknowledgments
-Special thanks to Coursera for the dataset and Streamlit for the interactive web app framework.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project was developed as part of my Final Year Project. For questions or feedback, please contact me at hassan7538216@gmail.com.
