@@ -68,14 +68,13 @@ Go to the Collaborative Filtering page to view recommendations based on similar 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Screenshots
 
-### User Home Page
-![User Home Page](https://drive.google.com/uc?export=view&id=1A2B3C4D5E6F7G8H9)
+**User Home Page**
+![Empty User Signup Page](https://drive.google.com/file/d/1NBXMITpGlYz6T8ewJHHXw8uXyi1mKN6w/view?usp=drive_link)
+![User Signup Page](https://drive.google.com/file/d/1CZg0cnLVVVWa1fiL9vFEjrMEMYi75NNs/view?usp=drive_link)
 
-### Content-Based Recommendation Page
-![Content-Based Recommendation](https://drive.google.com/uc?export=view&id=2B3C4D5E6F7G8H9A1)
-
-### Collaborative Filtering Page
-![Collaborative Filtering](https://drive.google.com/uc?export=view&id=3C4D5E6F7G8H9A2B1)
+Content-Based Filtering Page
+Collaborative Filtering Page
+Admin User Management Page
 
 
 
