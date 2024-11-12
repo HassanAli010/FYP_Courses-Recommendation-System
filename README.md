@@ -66,11 +66,16 @@ Go to the Collaborative Filtering page to view recommendations based on similar 
 
 **Screenshots**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-User Home Page
-Content-Based Filtering Page
-Collaborative Filtering Page
-Admin User Management Page
-(Add screenshots here for a visual representation of the interface.)
+## Screenshots
+
+### User Home Page
+![User Home Page](https://drive.google.com/uc?export=view&id=1A2B3C4D5E6F7G8H9)
+
+### Content-Based Recommendation Page
+![Content-Based Recommendation](https://drive.google.com/uc?export=view&id=2B3C4D5E6F7G8H9A1)
+
+### Collaborative Filtering Page
+![Collaborative Filtering](https://drive.google.com/uc?export=view&id=3C4D5E6F7G8H9A2B1)
 
 
 
