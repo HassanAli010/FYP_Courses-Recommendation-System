@@ -36,7 +36,6 @@ Logout: Ends the admin session and redirects to the login page.
 │   ├── courses.pkl              
 ├── src
 │   ├── app.py                   
-│   ├── utils.py                 
 │   ├── collaborative_filtering.py 
 │   ├── content_based_filtering.py
 ├── README.md                    
