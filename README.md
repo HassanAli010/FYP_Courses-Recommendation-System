@@ -72,6 +72,8 @@ Collaborative Filtering Page
 Admin User Management Page
 (Add screenshots here for a visual representation of the interface.)
 
+
+
 **Technologies Used**
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Python: Core programming language for logic and data processing.
