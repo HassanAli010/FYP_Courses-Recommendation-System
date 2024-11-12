@@ -1,6 +1,6 @@
 ***Courses Recommendation System***
 This repository contains the code for a Courses Recommendation System developed as part of my Final Year Project (FYP). This system uses content-based filtering and collaborative filtering to recommend courses to users based on their preferences and past course history.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Table of Contents
 Introduction
 Features
